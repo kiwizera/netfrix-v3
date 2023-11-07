@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.background{
+    background-image: url('./Imagens/filmes.png');
+    height: 100vh;
+}
+.header{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+} 
+.menu{
+    display: flex;
+    color: white;
+    list-style: none;
+    gap: 40px;
+}
+
+.container {
+    max-width: 1168px;
+    margin: 0 auto;
+}
+
+.principais-caracteristicas-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    text-align: center;
+}
+
+.principais-caracteristicas-grid div {
+    background-color: rgb(190, 0, 190);
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+
+.principais-caracteristicas {
+    background-color: purple;
+    padding: 120px 0;
+    color: white;
+}
+
+.principais-caracteristicas .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
