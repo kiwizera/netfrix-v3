@@ -4,6 +4,12 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+body {
+    color: white;
+    background-color: purple;
+}
+
 .background{
     background-image: url('./Imagens/filmes.png');
     height: 100vh;
@@ -41,7 +47,6 @@
 }
 
 .principais-caracteristicas {
-    background-color: purple;
     padding: 120px 0;
     color: white;
 }
@@ -52,4 +57,29 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
+}
+
+.mais-desejados {
+    padding: 40px 0;
+}
+
+.mais-desejados .container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mais-desejados-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    text-align: center;
+}
+
+.mais-desejados-grid img {
+    background-color: rgb(190, 0, 190);
+    border-radius: 10px;
+    width: 400px;
 }
