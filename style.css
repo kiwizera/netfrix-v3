@@ -17,9 +17,14 @@ body {
 .header{
     position: absolute;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
+} 
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 } 
 .menu{
     display: flex;
@@ -29,7 +34,7 @@ body {
 }
 
 .container {
-    max-width: 1168px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -82,4 +87,46 @@ body {
     background-color: rgb(190, 0, 190);
     border-radius: 10px;
     width: 400px;
+}
+
+.login-a {
+    position: absolute;
+    top: calc(50vh);
+}
+
+.login-a h1 {
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.login-a p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.button {
+    cursor: pointer;
+    padding: 7px 11px;
+    transition: all .5s ease;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid white;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+.button-orange {
+    background-color: #a700da;
+    border: 2px solid #a700da;
+    color: white;
+}
+.button-orange:hover {
+    background-color: black;
+    color: #a700da;
 }
